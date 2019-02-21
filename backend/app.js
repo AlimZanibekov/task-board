@@ -1,6 +1,6 @@
 const env = {
-    test: './env/test.env',
-    dev: './env/development.env'
+    dev: './env/development.env',
+    prod: './env/production.env'
 };
 
 require('dotenv').config({ path: env[process.env.NODE_ENV] });
